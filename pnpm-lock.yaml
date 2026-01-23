@@ -2,6 +2,7 @@ lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
+<<<<<<< HEAD
   excludeLinksFromLockfile: false
 
 importers:
@@ -3571,3 +3572,6 @@ snapshots:
       d3-timer: 3.0.1
 
   zod@3.25.76: {}
+=======
+  excludeLinksFromLockfile: false
+>>>>>>> 17c59ea2ff3ca3bda2b5d259767ccc75d5310d99
