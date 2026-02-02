@@ -5,16 +5,8 @@ import Link from "next/link"
 
 export default function ExplorePage() {
   const subjects = [
-    {
-      id: "mathematics",
-      name: "Mathematics",
-      grade: "Grade 12",
-    },
-    {
-      id: "physical-sciences",
-      name: "Physical Sciences",
-      grade: "Grade 12",
-    },
+    { id: "mathematics", name: "Mathematics", grade: "Grade 12" },
+    { id: "physical-sciences", name: "Physical Sciences", grade: "Grade 12" },
   ]
 
   return (
@@ -23,7 +15,9 @@ export default function ExplorePage() {
       <main className="min-h-screen bg-background py-16">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-5xl">
-            <h1 className="mb-6 text-center text-4xl font-bold text-foreground md:text-5xl">Select Your Subject</h1>
+            <h1 className="mb-6 text-center text-4xl font-bold text-foreground md:text-5xl">
+              Select Your Subject
+            </h1>
 
             <p className="mb-12 text-center text-xl leading-relaxed text-muted-foreground md:text-2xl">
               This gives you the opportunity to join the program full-time, with a simple monthly subscription that

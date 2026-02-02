@@ -18,7 +18,7 @@ export function Navigation() {
             href="/dashboard/learner"
             className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
-            Dashboard
+            Parents Dashboard
           </Link>
           <Link
             href="/contact"
